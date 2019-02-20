@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="readOnly">Read Only Mode</string>
+    <string name="maxNotes">Maximum Notes</string>
+    <string name="save">Save</string>
+    <string name="enterNote">Enter Note</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+</resources>

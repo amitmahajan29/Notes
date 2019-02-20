@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="acer.example.com.notesexample.SettingsActivity">
+
+    <Switch
+        android:id="@+id/sw1"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="@string/readOnly"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/maxNotes"
+        android:layout_marginTop="10dp" />
+
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:max="100"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="btn1_Click"
+        android:text="@string/save" />
+</LinearLayout>
